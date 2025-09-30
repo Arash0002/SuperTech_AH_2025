@@ -4,15 +4,26 @@
 """
     Docstring:
 """
-import random
 
-lotto = [] #Create empty list
 
-while len(lotto) < 6:
-    num = random.randint(1,60)
-    if num in lotto:
-        print("Duplciate number = ", num)
-    else:
-        lotto.append(num)
+import sys
+print(sys.platform)
 
-print("Lottery numbers are ", lotto)
+
+# import random
+
+#lotto = [] #Create empty list
+
+#while len(lotto) < 6:
+ #   num = random.randint(1,60)
+ #   if num in lotto:
+   #     print("Duplciate number = ", num)
+   # else:
+     #   lotto.append(num)
+
+#print("Lottery numbers are ", lotto)
+
+
+
+
+
